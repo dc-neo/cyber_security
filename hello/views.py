@@ -1,4 +1,11 @@
 from django.shortcuts import render
+import streamlit as st
+import pandas as pd
+import numpy as np
+
+from pycaret.clustering import * 
+
+model=load_model('../kmeans_model')
 
 from .models import Greeting
 
