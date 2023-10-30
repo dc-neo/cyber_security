@@ -5,7 +5,7 @@ import numpy as np
 
 from pycaret.clustering import * 
 
-model=load_model('../kmeans_model')
+model=load_model('kmeans_model')
 
 from .models import Greeting
 
